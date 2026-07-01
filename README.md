@@ -40,6 +40,7 @@ ownership of so I have converted it to a plugin.
 
  - 2025.2
  - 2025.3
+ - 2026.1
  
 
 ### Tested Minecraft Versions
