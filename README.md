@@ -34,6 +34,7 @@ ownership of so I have converted it to a plugin.
  - Enchantment Table
  - Anvil
  - Ender Chest
+ - Grindstone
  
 
 ### Tested MCreator Versions
