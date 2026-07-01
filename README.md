@@ -55,6 +55,12 @@ ownership of so I have converted it to a plugin.
 
  - [Supported] 1.21.8       |     - NeoForge
 
+ - [Supported] 26.1.2       |     - NeoForge
+ 
+ - [Untested] 1.21.8        |     - Fabric 
+ 
+ - [Unsupported] 26.1.2     |     - Fabric 
+ 
 <br>
 <br>
 <br>
