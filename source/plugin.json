@@ -3,12 +3,13 @@
   "supportedversions": [
     2025002,
     2025003,
-    2026001
+    2026001,
+    2026002
   ],
   "weight": 9421,
   "info": {
     "name": "Quims Menu",
-    "version": "0.0.0.5",
+    "version": "0.0.0.6",
     "description": "Functions to open up Menus on Blocks",
     "author": "QuimIsFay",
     "credits": "Fairy Kent or QuimIsFay, MCreator and you"

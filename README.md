@@ -34,6 +34,7 @@ ownership of so I have converted it to a plugin.
  - Enchantment Table
  - Anvil
  - Ender Chest
+ - Grindstone
  
 
 ### Tested MCreator Versions
@@ -41,6 +42,7 @@ ownership of so I have converted it to a plugin.
  - 2025.2
  - 2025.3
  - 2026.1
+ - 2026.2
  
 
 ### Tested Minecraft Versions
@@ -53,6 +55,12 @@ ownership of so I have converted it to a plugin.
 
  - [Supported] 1.21.8       |     - NeoForge
 
+ - [Supported] 26.1.2       |     - NeoForge
+ 
+ - [Untested] 1.21.8        |     - Fabric 
+ 
+ - [Unsupported] 26.1.2     |     - Fabric 
+ 
 <br>
 <br>
 <br>
