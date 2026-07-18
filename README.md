@@ -10,6 +10,9 @@ Hello and welcome to my first ever little plugin, I seen a few people asking how
 the vanilla crafting table or other menus, well I was able to get this to work on mod I took
 ownership of so I have converted it to a plugin.
 
+## Current Version
+ - 0.0.0.7
+
 ## How to use:
 
  - Create yourself a block, whatever settings you want but just make a block
@@ -35,6 +38,7 @@ ownership of so I have converted it to a plugin.
  - Anvil
  - Ender Chest
  - Grindstone
+ - Smithing Table
  
 
 ### Tested MCreator Versions
