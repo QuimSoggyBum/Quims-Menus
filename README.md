@@ -17,8 +17,9 @@ ownership of so I have converted it to a plugin.
  - Add one of my blockly's to it
 
 <p align="center">
-    <img width="796" height="632" alt="image" src="https://github.com/user-attachments/assets/6855e13c-3925-4256-a6d9-fc9354e0d618" />
+    <img width="796" height="632" alt="image" src="https://github.com/user-attachments/assets/46a50cc2-56d1-4c2d-97dd-fce10d673a7f" />
 </p>
+
 <p align="center">
     <img width="1125" height="409" alt="image" src="https://github.com/user-attachments/assets/bf0db733-15ca-4e9b-b3ec-b2c5dbbdce81" />
 </p>
