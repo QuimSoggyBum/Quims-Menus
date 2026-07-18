@@ -18,7 +18,7 @@
   "mcreator": {
     "toolbox_id": "quimsmenus",
     "toolbox_init": [
-		"<value name=\"TEXT\"><block type=\"text\"><field name=\"TEXT\">Grindstone</field></block></value>",
+		"<value name=\"TEXT\"><block type=\"text\"><field name=\"TEXT\">Smithing</field></block></value>",
 		"<value name=\"ENTITY\"><block type=\"entity_from_deps\"></block></value>"
     ],
     "inputs": [
