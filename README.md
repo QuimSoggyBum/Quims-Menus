@@ -3,12 +3,12 @@
 </p>
 
 # Quims-Menus
-MCretor Plugin to add some Vanilla GUI bindings to custom blocks like Crafting Tables.
+MCretor Plugin to add some Vanilla GUI bindings to custom blocks like Crafting Tables, it also adds some useful block related functions.
 
 
-Hello and welcome to my first ever little plugin, I seen a few people asking how to open
+Hello and welcome to my first ever little plugin, I have seen a few people asking how to open
 the vanilla crafting table or other menus, well I was able to get this to work on mod I took
-ownership of so I have converted it to a plugin.
+ownership of so I have converted it to a plugin, and added a few useful functions down the line.
 
 ## Current Version
  - 0.0.0.7
@@ -19,9 +19,20 @@ ownership of so I have converted it to a plugin.
  - Create a On Right Click Function
  - Add one of my blockly's to it
 
+<img width="190" height="171" alt="image" src="https://github.com/user-attachments/assets/aff7ec3c-2a4d-4326-bee9-517af9f00886" />
+<img width="178" height="157" alt="image" src="https://github.com/user-attachments/assets/316cdf24-61ee-4983-9647-5458ab534705" />
+
+### Block Actions:
 <p align="center">
-    <img width="796" height="632" alt="image" src="https://github.com/user-attachments/assets/46a50cc2-56d1-4c2d-97dd-fce10d673a7f" />
+   <img width="777" height="420" alt="image" src="https://github.com/user-attachments/assets/9450daf8-b6ea-4e23-a2fb-44c4c2c51cab" />
 </p>
+
+### Vanilla GUI's:
+<p align="center">
+   <img width="781" height="622" alt="image" src="https://github.com/user-attachments/assets/395f3c9a-f9ce-400c-9cdb-1e3558c70a6b" />
+</p>
+
+### Exambles:
 <p align="center">
     <img width="1125" height="409" alt="image" src="https://github.com/user-attachments/assets/bf0db733-15ca-4e9b-b3ec-b2c5dbbdce81" />
 </p>
@@ -30,6 +41,9 @@ ownership of so I have converted it to a plugin.
     <img width="450" height="394" alt="image" src="https://github.com/user-attachments/assets/77ecf780-9a21-4e20-a369-94f75ffaa8ef" />
 </p>
 
+<p align="center">
+   <img width="1604" height="866" alt="image" src="https://github.com/user-attachments/assets/388f467d-3224-4aa8-b686-511fccfa584c" />
+</p>
 
 ### Supported Tables
 
@@ -42,7 +56,14 @@ ownership of so I have converted it to a plugin.
  - Loom
  - Cartography Table
  - Hopper
- 
+
+### Block functions
+ - Pull items from block inventory connected **{Direction}** of xyz
+ - Push items from block at xzy to block inverntory connected at **{Direction}**
+ - Void items of block inventory at xyz as **{deleted_type}**
+
+ - - **{Direction}**: UP, DOWN, NORTH, EAST, WEST, SOUTH
+ - - **{deleted_type}** Single, will delete slowly 1 item at a time, Slot, will delete at a slot at a time, Inventory, deleteds the full blocks inventory at the definded xyz
 
 ### Tested MCreator Versions
 
