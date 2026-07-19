@@ -39,6 +39,9 @@ ownership of so I have converted it to a plugin.
  - Ender Chest
  - Grindstone
  - Smithing Table
+ - Loom
+ - Cartography Table
+ - Hopper
  
 
 ### Tested MCreator Versions
