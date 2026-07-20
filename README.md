@@ -15,9 +15,9 @@ ownership of so I have converted it to a plugin, and added a few useful function
 
 ## How to use:
 
- - Create yourself a block, whatever settings you want but just make a block
- - Create a On Right Click Function
- - Add one of my blockly's to it
+ - Download the zip and place it in your plugin folder for mcreator
+ - open/create a procedure
+ - find Quims Menus and play with the functions included, enjoy. 
 
 <img width="190" height="171" alt="image" src="https://github.com/user-attachments/assets/aff7ec3c-2a4d-4326-bee9-517af9f00886" />
 <img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/c845dc64-74b3-4404-8a15-b3d08e099d51" />
