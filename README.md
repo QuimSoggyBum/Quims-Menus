@@ -50,6 +50,10 @@ ownership of so I have converted it to a plugin, and added a few useful function
    <img width="1604" height="866" alt="image" src="https://github.com/user-attachments/assets/388f467d-3224-4aa8-b686-511fccfa584c" />
 </p>
 
+<p align="center">
+   <img width="1185" height="301" alt="image" src="https://github.com/user-attachments/assets/0c2d660e-6876-4fe4-80de-c4942304d3ff" />
+</p>
+
 ### Supported Tables
 
  - Crafting Table
