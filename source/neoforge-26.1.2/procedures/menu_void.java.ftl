@@ -4,7 +4,31 @@ LevelAccessor void_lvl = world;
 
 BlockPos void_qmp_Pos = BlockPos.containing(${input$X}, ${input$Y}, ${input$Z});
 
-if (void_lvl.getBlockEntity(void_qmp_Pos) instanceof Container voidContainer) {
+Container voidContainer = null;
+
+BlockState voidState = void_lvl.getBlockState(void_qmp_Pos);
+
+if (void_lvl instanceof Level level &&
+    voidState.getBlock() instanceof ChestBlock chestBlock) {
+
+    voidContainer = ChestBlock.getContainer(
+        chestBlock,
+        voidState,
+        level,
+        void_qmp_Pos,
+        true
+    );
+
+}
+
+if (voidContainer == null &&
+    void_lvl.getBlockEntity(void_qmp_Pos) instanceof Container container) {
+
+    voidContainer = container;
+
+}
+
+if (voidContainer != null) {
 
     for (int slot = 0; slot < voidContainer.getContainerSize(); slot++) {
 
@@ -15,9 +39,11 @@ if (void_lvl.getBlockEntity(void_qmp_Pos) instanceof Container voidContainer) {
             if ("SINGLE".equals("${field$AMOUNT}")) {
 
                 stack.shrink(1);
+
                 voidContainer.setItem(slot, stack);
 
                 voidContainer.setChanged();
+
                 break;
 
             } else if ("SLOT".equals("${field$AMOUNT}")) {
@@ -25,49 +51,30 @@ if (void_lvl.getBlockEntity(void_qmp_Pos) instanceof Container voidContainer) {
                 voidContainer.setItem(slot, ItemStack.EMPTY);
 
                 voidContainer.setChanged();
+
                 break;
 
             } else if ("INVENTORY".equals("${field$AMOUNT}")) {
 
-                for (int clearSlot = 0; clearSlot < voidContainer.getContainerSize(); clearSlot++) {
-                    voidContainer.setItem(clearSlot, ItemStack.EMPTY);
+                for (int clearSlot = 0;
+                     clearSlot < voidContainer.getContainerSize();
+                     clearSlot++) {
+
+                    voidContainer.setItem(
+                        clearSlot,
+                        ItemStack.EMPTY
+                    );
+
                 }
 
                 voidContainer.setChanged();
+
                 break;
+
             }
+
         }
+
     }
+
 }
-
-
-/*
-LevelAccessor void_lvl = world;
-
-BlockPos void_qmp_Pos = BlockPos.containing(${input$X}, ${input$Y}, ${input$Z});
-
-boolean void_removedItem = false;
-
-if (void_lvl.getBlockEntity(void_qmp_Pos) instanceof Container container) {
-
-    for (int slot = 0; slot < container.getContainerSize(); slot++) {
-
-        if (void_removedItem) {
-            break;
-        }
-
-        ItemStack stack = container.getItem(slot);
-
-        if (!stack.isEmpty()) {
-
-            stack.shrink(1);
-
-            container.setItem(slot, stack);
-
-            container.setChanged();
-
-            void_removedItem = true;
-        }
-    }
-}
-*/
