@@ -1,4 +1,4 @@
-// Quims Grindstone Table Menu
+// Quims Stonecutter Table Menu
 if (${input$ENTITY} instanceof ServerPlayer player && ${input$ENTITY}.level() instanceof Level lvl) {
     BlockPos qmp_Pos = player.blockPosition();
     final String qm_title = ${input$TEXT};

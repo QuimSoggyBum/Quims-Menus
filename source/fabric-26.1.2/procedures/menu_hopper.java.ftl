@@ -29,3 +29,4 @@ if (${input$ENTITY} instanceof ServerPlayer player) {
         });
     }
 }
+
