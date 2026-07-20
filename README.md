@@ -3,7 +3,7 @@
 </p>
 
 # Quims-Menus
-MCretor Plugin to add some Vanilla GUI bindings to custom blocks like Crafting Tables, it also adds some useful block related functions.
+MCretor Plugin to add some Vanilla GUI bindings to custom blocks like Crafting Tables, it also adds some useful block and item related functions.
 
 
 Hello and welcome to my first ever little plugin, I have seen a few people asking how to open
