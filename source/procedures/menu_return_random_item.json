@@ -1,0 +1,28 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "EXCLUDED_ITEMS",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "EXCLUDE_ADMIN_ITEMS",
+      "check": "Boolean"
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItem",
+  "colour": "A55B67",
+  "mcreator": {
+    "toolbox_id": "quimsmenus_items_data",
+    "toolbox_init": [
+      "<value name=\"EXCLUDED_ITEMS\"><block type=\"text\"><field name=\"TEXT\"></field></block></value>",
+      "<value name=\"EXCLUDE_ADMIN_ITEMS\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
+    ],
+    "inputs": [
+      "EXCLUDED_ITEMS",
+      "EXCLUDE_ADMIN_ITEMS"
+    ]
+  }
+}

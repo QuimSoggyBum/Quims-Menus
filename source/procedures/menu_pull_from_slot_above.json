@@ -1,14 +1,34 @@
 {
   "args0": [
     {
-      "type": "input_value",
-      "name": "TEXT",
-      "check": "String"
-    },
-    {
-      "type": "input_value",
-      "name": "ENTITY",
-      "check": "Entity"
+      "type": "field_dropdown",
+      "name": "DIRECTION",
+      "options": [
+        [
+          "North",
+          "NORTH"
+        ],
+        [
+          "South",
+          "SOUTH"
+        ],
+        [
+          "East",
+          "EAST"
+        ],
+        [
+          "West",
+          "WEST"
+        ],
+        [
+          "Up",
+          "UP"
+        ],
+        [
+          "Down",
+          "DOWN"
+        ]
+      ]
     },
     {
       "type": "input_value",
@@ -29,22 +49,27 @@
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "5BA59F",
+  "colour": "a5a55b",
   "mcreator": {
-    "toolbox_id": "quimsmenus_gui",
+    "toolbox_id": "quimsmenus_blocks_action",
     "toolbox_init": [
-		"<value name=\"TEXT\"><block type=\"text\"><field name=\"TEXT\">Enchantment</field></block></value>",
-		"<value name=\"ENTITY\"><block type=\"entity_from_deps\"></block></value>",
 		"<value name=\"X\"><block type=\"coord_x\"></block></value>",
 		"<value name=\"Y\"><block type=\"coord_y\"></block></value>",
 		"<value name=\"Z\"><block type=\"coord_z\"></block></value>"
     ],
     "inputs": [
-      "TEXT",
-      "ENTITY",
       "X",
       "Y",
       "Z"
+    ],
+    "fields":[
+		"DIRECTION"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
     ]
   }
 }

@@ -14,9 +14,9 @@
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "a5a55b",
+  "colour": "5BA59F",
   "mcreator": {
-    "toolbox_id": "quimsmenus",
+    "toolbox_id": "quimsmenus_gui",
     "toolbox_init": [
 		"<value name=\"TEXT\"><block type=\"text\"><field name=\"TEXT\">Anvil</field></block></value>",
 		"<value name=\"ENTITY\"><block type=\"entity_from_deps\"></block></value>"
