@@ -20,11 +20,16 @@ ownership of so I have converted it to a plugin, and added a few useful function
  - Add one of my blockly's to it
 
 <img width="190" height="171" alt="image" src="https://github.com/user-attachments/assets/aff7ec3c-2a4d-4326-bee9-517af9f00886" />
-<img width="178" height="157" alt="image" src="https://github.com/user-attachments/assets/316cdf24-61ee-4983-9647-5458ab534705" />
+<img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/c845dc64-74b3-4404-8a15-b3d08e099d51" />
 
 ### Block Actions:
 <p align="center">
-   <img width="777" height="420" alt="image" src="https://github.com/user-attachments/assets/9450daf8-b6ea-4e23-a2fb-44c4c2c51cab" />
+    <img width="810" height="356" alt="image" src="https://github.com/user-attachments/assets/02558cac-54a2-4256-9b82-361a67a3c0fa" />
+</p>
+
+### Item Data:
+<p align="center">
+    <img width="893" height="355" alt="image" src="https://github.com/user-attachments/assets/6134bc62-343c-49d5-912b-de8e1490ff1b" />
 </p>
 
 ### Vanilla GUI's:
@@ -56,8 +61,14 @@ ownership of so I have converted it to a plugin, and added a few useful function
  - Loom
  - Cartography Table
  - Hopper
+ - Stonecutter
 
-### Block functions
+### Item Data fucntions
+- Return a random item, exclude **{ITEM_LIST}** (Use commas to split items), exlude admin items? {Boolean}
+
+- **{ITEM_LIST}**: this is just a simple list with a comma to split them up EG: minecraaft:apple,*_ore would explude apples and all ores but we added no namespace on the ore so it would disabled all ore include other mods to be returned.
+
+### Block Action functions
  - Pull items from block inventory connected **{Direction}** of xyz
  - Push items from block at xzy to block inverntory connected at **{Direction}**
  - Void items of block inventory at xyz as **{deleted_type}**
